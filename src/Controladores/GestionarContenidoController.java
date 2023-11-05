@@ -5,32 +5,23 @@
  */
 package Controladores;
 
-import Modelo.pojo.Estudiante;
 import java.net.URL;
 import java.util.ResourceBundle;
-import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.control.Button;
 
 /**
  * FXML Controller class
  *
  * @author Elotlan
  */
-public class MenuPrincipalEstudianteController implements Initializable {
+public class GestionarContenidoController implements Initializable {
 
-    @FXML
-    private Button btnBuscar;
-
-    Estudiante recibirEstudiante = new Estudiante();
-    
+    /**
+     * Initializes the controller class.
+     */
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
     }    
-    
-    public void recibirEstudiante(Estudiante estudiante){
-        recibirEstudiante = estudiante;
-    }
     
 }
